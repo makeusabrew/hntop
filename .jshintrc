@@ -1,0 +1,7 @@
+{
+    "esnext": true,
+    "node": true,
+    "unused": true,
+    "undef": true,
+    "predef": ["describe", "it", "beforeEach", "afterEach", "sinon", "expect"]
+}

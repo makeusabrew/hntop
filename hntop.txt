@@ -1,0 +1,12 @@
+* request comes in
+* we fetch https://hacker-news.firebaseio.com/v0/topstories.json
+* we parse the top 10 or however many
+* we check redis to see if we already know about any of the items
+ - if not, look up the item: https://hacker-news.firebaseio.com/v0/item/[X].json
+ - pay attention to 'self' style posts - what URL do we get there?
+* INCR a counter for the top item
+* issue a 30X redirect
+
+* possible future enhancements:
+GET /X = get the Xth top ranked link (max of whatever our max is)
+GET /about

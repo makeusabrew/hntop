@@ -1,0 +1,16 @@
+{
+  "name": "hntop",
+  "version": "0.0.0",
+  "description": "",
+  "main": "hntop.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.1.1",
+    "redis": "^2.4.2",
+    "request": "^2.67.0"
+  }
+}
